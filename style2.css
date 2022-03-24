@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 240, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: rgb(148, 250, 236);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.my-logo{
+    width: 60px;
+    height: 60px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+.my-title{
+    float: left;
+    padding: 18px;
+    font-size: 10px;
+    color: blue;
+}
+
+.header-contact{
+    float: right;
+    padding: 15px;
+    font-size: 10px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+.header-contact p::first-letter{
+    font-size: 12px;
+    color: coral;
+}
+.header-contact a:hover{
+    color: crimson;
+}
+.div-clear{
+    clear: both;   
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#section1{
+
+}
+.content{
+margin:auto;
+}
+.left-div{
+width: 30%;
+float: left;
+padding-top: 5px;
+}
+.right-div{
+width: 70%;
+float: left;
+padding-top: 5px;
+}
+.right-div p{
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+.div-clear{
+    clear: both;
+
+}
+.common-hr{
+    border: 2px solid grey;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.middle{
+    text-align: center;
+}
+.common-hr2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 2px solid gray;
+    border-bottom: none;
+}
+.common-hr3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid gray;
+    border-bottom: none;
+}
+table{
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 0px;
+    margin: 10px auto;
+   border-collapse: collapse;
+    
+    
+}
+.table-head{
+    justify-content: center;
+    
+}
+th {
+ border: 1px solid black;
+ padding: 5px;
+ text-align: center;
+ justify-content: center;
+font-weight: bold;
+ color: chocolate;
+ 
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
